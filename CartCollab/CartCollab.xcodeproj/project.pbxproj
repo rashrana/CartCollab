@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AA17C3FD2B97EB0D005359AF /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA17C3FC2B97EB0D005359AF /* Card.swift */; };
 		AA17C3FF2B97F66A005359AF /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA17C3FE2B97F66A005359AF /* CartItem.swift */; };
+		AA17C4052B97F923005359AF /* CartItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA17C4042B97F923005359AF /* CartItemController.swift */; };
 		AAED846A2B912F98001B7281 /* CartCollabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAED84692B912F98001B7281 /* CartCollabApp.swift */; };
 		AAED846C2B912F98001B7281 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAED846B2B912F98001B7281 /* ContentView.swift */; };
 		AAED846E2B912F99001B7281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAED846D2B912F99001B7281 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		AA17C3FC2B97EB0D005359AF /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		AA17C3FE2B97F66A005359AF /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		AA17C4042B97F923005359AF /* CartItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemController.swift; sourceTree = "<group>"; };
 		AAED84662B912F98001B7281 /* CartCollab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CartCollab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAED84692B912F98001B7281 /* CartCollabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCollabApp.swift; sourceTree = "<group>"; };
 		AAED846B2B912F98001B7281 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 		AAED847C2B913000001B7281 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				AA17C4042B97F923005359AF /* CartItemController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			files = (
 				AAED846C2B912F98001B7281 /* ContentView.swift in Sources */,
 				AA17C3FD2B97EB0D005359AF /* Card.swift in Sources */,
+				AA17C4052B97F923005359AF /* CartItemController.swift in Sources */,
 				AAED846A2B912F98001B7281 /* CartCollabApp.swift in Sources */,
 				AAED84832B913072001B7281 /* CartListView.swift in Sources */,
 				AAED84812B91303F001B7281 /* BottomBar.swift in Sources */,
