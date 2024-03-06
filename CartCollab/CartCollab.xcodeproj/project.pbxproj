@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA17C3FD2B97EB0D005359AF /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA17C3FC2B97EB0D005359AF /* Card.swift */; };
 		AAED846A2B912F98001B7281 /* CartCollabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAED84692B912F98001B7281 /* CartCollabApp.swift */; };
 		AAED846C2B912F98001B7281 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAED846B2B912F98001B7281 /* ContentView.swift */; };
 		AAED846E2B912F99001B7281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAED846D2B912F99001B7281 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA17C3FC2B97EB0D005359AF /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		AAED84662B912F98001B7281 /* CartCollab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CartCollab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAED84692B912F98001B7281 /* CartCollabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCollabApp.swift; sourceTree = "<group>"; };
 		AAED846B2B912F98001B7281 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				AAED84802B91303F001B7281 /* BottomBar.swift */,
+				AA17C3FC2B97EB0D005359AF /* Card.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAED846C2B912F98001B7281 /* ContentView.swift in Sources */,
+				AA17C3FD2B97EB0D005359AF /* Card.swift in Sources */,
 				AAED846A2B912F98001B7281 /* CartCollabApp.swift in Sources */,
 				AAED84832B913072001B7281 /* CartListView.swift in Sources */,
 				AAED84812B91303F001B7281 /* BottomBar.swift in Sources */,
